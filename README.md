@@ -51,7 +51,7 @@ Built-in properties include:
 | `CounterProperty`           | `<Integer, CounterEditor, JLabel>`       | editor can be either a spinner or a slider                  |
 | `FileProperty`              | `<java.io.File, FileEditor, JLabel>`     | editor is a panel with "select" and "clear" buttons         |
 | `LongTextProperty`          | `<String, JScrollPane, JScrollPane>`     | scroll panes have `JTextArea`s                              |
-| `MessageProperty            | `<String, JLabel, JLabel>`               | never editable                                              |
+| `MessageProperty`           | `<String, JLabel, JLabel>`               | never editable                                              |
 | `MultipleChoiceProperty<T>` | `<T, JComboBox, JLabel>`                 | works well with enums but also with any collection or array |
 | `TextProperty`              | `<String, JTextField, JLabel>`           | vanilla                                                     |
 | `TimeProperty`              | `<Time, TimePanel, JLabel>`              | has hours, minutes, seconds                                 |
